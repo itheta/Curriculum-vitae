@@ -1,0 +1,13 @@
+Github and linkedin icon issue:
+
+http://tex.stackexchange.com/questions/263150/fontawesome-wont-render-correctly-while-working-on-a-moderncv
+
+Change margins and edit spacing of the document:
+
+\usepackage[top=0.3cm, bottom=1.0cm, left=1.2cm, right=1.2cm]{geometry} (Example)
+
+Details:
+
+http://tex.stackexchange.com/questions/82861/moderncv-modify-size-of-blank-spaces
+http://tex.stackexchange.com/questions/96728/moderncv-classic-style-change-space-below-title
+
