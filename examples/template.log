@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.7)  4 MAY 2016 14:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.7)  4 MAY 2016 14:24
 entering extended mode
 **C:/Users/AritraBiswas/Documents/GitHub/Curriculum*vitae/examples/template.tex
 
@@ -819,11 +819,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19920 strings out of 493921
- 329775 string characters out of 3144856
+ 19918 strings out of 493921
+ 329751 string characters out of 3144856
  411604 words of memory out of 3000000
  22965 multiletter control sequences out of 15000+200000
- 69262 words of font info for 76 fonts, out of 3000000 for 9000
+ 69161 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  70i,21n,57p,10425b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontawesome/fontawesomethr
@@ -837,7 +837,7 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmsso10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on template.pdf (3 pages, 283641 bytes).
+Output written on template.pdf (3 pages, 283661 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
