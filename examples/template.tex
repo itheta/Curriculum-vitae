@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[top=.7cm, bottom=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage[top=.7cm, bottom=2.35cm, left=2cm, right=2cm]{geometry} 
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -59,33 +59,36 @@
 \vspace*{-2cm}
 \section{Education}
 \cventry{2017}{M.Sc. (Statistics)}{University of Delhi}{Delhi}{\textit{India}}{}  % arguments 3 to 6 can be left empty
-\cventry{2015}{B.Sc. (Statistics)}{Presidency University}{Kolkata, India}{\textit{46.5\%}}{}
+\cventry{2015}{B.Sc. (Statistics)}{Presidency University}{Kolkata}{\textit{India}}{}
 
 \vspace*{.08cm}
 \section{Current Academic Project}
-\cvitem{Title}{\emph{Server based interactive programming in R to visualize maximum likelihood }}
+\cvitem{Title}{\emph{Server based interactive programming in R to visualize maximum likelihood estimate }}
 \cvitem{Supervisors}{Dr. Kapil Kumar, Department of Statistics, Delhi University}
-\cvitem{Description}{Simulating a data for a given probability distribution by user as input (i.e. family or distribution name and parameter space). This program uses Shiny server to visualise the log-likelihood of the simulated data and estimates the various population parameter associated with the distribution of the simulated data. \href{http://www.google.com}{for details click here} } 
+\cvitem{Description}{Simulating data for a given user inputed specified probability distribution (i.e. family or distribution name and parameter space). 
+This interactive program uses Shiny Server to visualise the log-likelihood of the simulated data in a contour plot and obtains MLE estimates 
+of the population parameters by solving a system of non linear equations. \href{http://www.google.com}{} } 
 \vspace*{-.05cm}
 \section{Independent Projects}
-\cventry{Jan-2013}{Case study with Minitab}{A comparative study of OLS and multiple linear regression}{}{}{This case study shows the basic differences between OLS and multiple linear regression. Similarity and difference between these two methods. Conducts a series of statistical test for regression assumption in R. Also, it validates various assumptions of linear regression with the help of residual analysis.   \href{http://www.google.com}{for details click here}  }
+\cventry{Jan-2013}{Case study in Minitab}{A comparative study of OLS and multiple linear regression}{}{}{
+This case study does a relative comparison of ordinary least square regression and multiple linear regression by conducting a
+series of statistical tests, residual analysis and exploratory graphical analyses.    \href{http://www.google.com}{}  }
 \vspace*{.08cm}
-\cventry{July-2015}{YouTubeR}{An R based interface to access and analyse YouTube API}{}{}{YouTubeR is an interface in R to access YouTube data API.It gets real time data from Youtube data API and google plus API. It also convets the complext data sturctures,nested lists from JSON file to class S3 object, missing value treatment, graphically analysis , sentiment analytics. Utility associated with sentiment analysis in this package is the modification of various functions from Syuzhet, TM and openNLP packages in R. (Details  mentioned in 
-the package vignette)    %Detailed achievements:%
+\cventry{July-2015}{YouTubeR}{A comprehensive package to access \& analyse data from YouTube API via R }{}{}{It gets real time data from Youtube data API and google plus API.Function from this package converts the complex data sturctures, nested lists from JSON file to class S3 object, does missing value treatment, graphical analyses and sentiment analyses. Utility associated with sentiment analyses, text mining and processing in this package is modification of various functions from Syuzhet, TM and openNLP packages in R. (Details  mentioned in the package vignette)    %Detailed achievements:%
 \begin{itemize}%
-\item Dealing with complex data structure, sparce data, nested list, large missing values;
-\item Web scraping unstructured text data and creating stuctured lists in R:
+\item Dealing with complex data structure, sparce data, nested lists, large missing values;
+\item Web scraping unstructured text data and converting to stuctured list objects in R:
   \begin{itemize}%
-  \item (a) rvest package;
+  \item (a) Usage of rvest package;
   \item (b) Application of rjson, jsonlite, RJSONIO package;
-  \item (c) Application of tidyr,dplyr and data.table package;
+  \item (c) Application of tidyr, dplyr and data.table package;
   \end{itemize}
 \item Data visualization with base graphics, ggplot2, ggvis, lattice and htmlwidgets in R .
 \newline 
- \href{http://www.google.com}{for details click here} 
+ \href{http://www.google.com}{} 
 \end{itemize}}
 \vspace*{.08cm}
-\cventry{April-2016}{Exploratory data analysis with R}{}{}{}{Validating regression assumptions by graphical and statistical tests, Multivariate data visualisation and feature selection.  \href{http://www.google.com}{for details click here} }
+\cventry{April-2016}{Exploratory data analysis in R}{}{}{}{Validating regression assumptions by graphical and statistical tests, Multivariate data visualisation and feature selection.  \href{http://www.google.com}{} }
 
 \section{Languages}
 \cvitemwithcomment{English}{Proficient }{Speaking and writing }
@@ -103,9 +106,9 @@ the package vignette)    %Detailed achievements:%
 \cvlistitem{Cooking}
 \cvlistitem{Photography}
 \section{Technical Skills}
-\cvitem{Machine Learning}{Classification, Regression Analysis, Support Vector Machine, Natural Language Processing}
-\cvitem{Statistical Methods}{Hypothesis Testing, Resampling Techniques, Dimensionality Reduction, Principal Component Analysis, Nonparametric Methods }
-\cvitem{Selected Coursework}{Probability Theory, Statistical Inference, Linear Algebra, Statistical Computing, Data Analysis (till Semester I and II), Generalized Linear Models, Multivariate Analysis,  Econometrics and Time Series Analysis, Advanced Statistical Computing and Data Mining, Bayesian Inference, Operational Research (in upcomming Semester III and IV) }
+\cvitem{Statistical machine learning}{Classification, Regression Analysis, Support Vector Machine, Natural Language Processing, Resampling methods, Selection and Regularization, Unsupervised learning , Missing value analysis}
+\cvitem{Statistical methods}{Hypothesis Testing,  Dimensionality Reduction, Principal Component Analysis, Nonparametric Methods }
+\cvitem{Selected coursework}{Probability Theory, Statistical Inference, Linear Algebra, Statistical Computing, Data Analysis (till Semester I and II), Generalized Linear Models, Multivariate Analysis,  Econometrics and Time Series Analysis, Advanced Statistical Computing and Data Mining, Bayesian Inference, Operational Research (in upcomming Semester III and IV) }
 
 \section{Online courses and certifications}
 \cvlistdoubleitem{Statistical Learning, Stanford Online \newline \href{https://github.com/itheta/Certification/blob/master/SL_Statement.pdf} {(with distinction)}}{Predictive Analytics, IIMB, edX \newline \href{https://github.com/itheta/Certification/blob/master/IIMBQM901Certificate.pdf}{(Certified)}}
@@ -115,53 +118,46 @@ the package vignette)    %Detailed achievements:%
 
 \section{Extracurricular activities and responsibilities}
 \begin{cvcolumns}
-  \cvcolumn{}{\begin{itemize}\item General secretary of photography club \item Graphic designer of college annual magazine \end{itemize}}
-  \cvcolumn{}{\begin{itemize}\item Web admin (Milieu, Presidency College)\item Member, Millieu organizing committee \end{itemize}}
-  \cvcolumn{}{\begin{itemize}\item Guest blogger at PriceJugaad \item Guest blogger at ifitry.com\end{itemize}}
+  \cvcolumn{}{\begin{itemize}\item General secretary of \newline photography club \item Graphic designer of college annual magazine \end{itemize}}
+  \cvcolumn{}{\begin{itemize}\item Web admin (Milieu, \newline Presidency College)\item Member, Milieu \newline organizing committee \end{itemize}}
+  \cvcolumn{}{\begin{itemize}\item Guest blogger at \newline PriceJugaad.com \item Guest blogger at ifitry.com\end{itemize}}
 \end{cvcolumns}
 
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 \clearpage
 %-----       letter       ---------------------------------------------------------
 % recipient data
 \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-\date{ 30 April 2016}
+\date{ 4th May 2016}
 \opening{Dear Sir or Madam,}
-\closing{Yours faithfully,}
-\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\closing{Yours sincerely,}
+\enclosure[Attached]{curriculum vitae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 \makelettertitle
 
 
+Hello, \newline \newline I'm Aritra Biswas. I'm currently perusing my post-graduation course in statistics from Department of Statistics, University of Delhi. 
+I've done my graduation from Presidency College, University of Calcutta. I've come to know about the opportunity of an internship in 
+Data Science Technologies Pvt Ltd from Internshala. From information provided on the website, I've found the opportunity to be quite exciting and 
+challenging, which made me apply for this position. For this position I can offer:
+\newline
 
+\begin{itemize}
+\item Skills in various programming languages (i.e R, C, LaTeX, Markdown). I'm a native R programmer with specializations in statistical machine learning 
+and advanced multivariate data visualization. (For details, see resume)
 
-Hello, \newline \newline   I'm Aritra Biswas. I'm currently perusing my post-graduation course in statistics from Department of Statistics, University of Delhi. I've done my graduation from Presidency College, University of Calcutta. \newline
-I've come to know about the ....... from ..... As a keen observer of analytics industry, the ......... have grabbed my eyeballs. I believe with my specific skill sets I can try to make ......... better than others in the field of data science. With the ........ I've been informed about the position of a data scientist in ....... I found the job quite exciting, challenging, which made me to apply for this position. For this position I can offer: \newline
-\begin{itemize}%
-\item Skills in various programming languages (i.e R,  C, SQL, LaTeX, Markdown). I'm a native R programmer with specialization in statistical leaning and advanced multivariate data visualization.  (For details, see resume)
-\item Academic course work in Statistics and application of mathematics. 
-\item Familiar with cloud computing such as AWS, GCE.
-\item Passion for data science and interest in development in the field of statistical computation. 
+\item Academic coursework in Statistics and application of mathematics.
+
+\item Familiarity with cloud computing, such as AWS, GCE.
+
+\item Passion for data science and interest in the developments in the field of Statistical Computing. \newline
 \end{itemize}
 
-In the past graduate school seemed to be the only option for doing this. Now I believe that I can disseminate my knowledge and passions more effectively through ........ as a data scientist. I would love to learn more about the responsibilities of a .......Data Scientist, and I can be reached ......, ............ My ultimate goal is to help grow the world's knowledge and to make it more accessible to a wide.
 
+I believe with my specific skill set I can try to make Data Science Technologies Pvt Ltd better than others in the field of data science. I believe that I can 
+disseminate my knowledge and passions more effectively through this internship opportunity as a data scientist. I would love to learn more about the responsibilities 
+of a Data Scientist. If you have any question, feel free to contact me at: (Phone) +91-9540147437 or (Email) aritra.biswas.stats@gmail.com.  \newline
 
+Thank you for your time and consideration. \newline 
 
 
 \makeletterclosing
